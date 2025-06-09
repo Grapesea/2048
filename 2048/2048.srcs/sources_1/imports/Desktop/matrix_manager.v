@@ -28,16 +28,20 @@ module matrix_manager (
         end
     endfunction
 
+    reg init_state;
+
     always @(posedge clk or negedge rst_n) begin
         if (!rst_n) begin
             game_matrix <= 80'h0;
-            // 初始化两个随机方块（示例位置，可改为随机生成）
-            game_matrix[0*5 +:5] <= 5'b00001;  // 2
-            game_matrix[3*5 +:5] <= 5'b00001;  // 2
+            init_state <= 1'b1;
+        end else if (init_state) begin
+            // 延迟一个时钟周期初始化方块
+            game_matrix[0*5 +:5] <= 5'b00001;
+            game_matrix[3*5 +:5] <= 5'b00001;
+            init_state <= 1'b0;
         end else if (restart_game) begin
             game_matrix <= 80'h0;
-            game_matrix[0*5 +:5] <= 5'b00001;
-            game_matrix[15*5 +:5] <= 5'b00001;
+            init_state <= 1'b1;
         end else if (add_new_block && new_block_pos < 16) begin
             game_matrix[new_block_pos*5 +:5] <= new_block_val;
         end

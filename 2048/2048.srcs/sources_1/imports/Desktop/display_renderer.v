@@ -77,7 +77,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/0.hex")  
+        .DATA_FILE("G:/2048/2048/new/0.hex")  
     ) u_rom_0 (
         .clk(clk_pixel),
         .x(rel_x),
@@ -88,7 +88,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/2.hex")  
+        .DATA_FILE("G:/2048/2048/new/2.hex")  
     ) u_rom_1 (
         .clk(clk_pixel),
         .x(rel_x),
@@ -99,7 +99,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/4.hex")   
+        .DATA_FILE("G:/2048/2048/new/4.hex")   
     ) u_rom_2 (
         .clk(clk_pixel),
         .x(rel_x),
@@ -110,7 +110,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/8.hex")  
+        .DATA_FILE("G:/2048/2048/new/8.hex")  
     ) u_rom_3 (
         .clk(clk_pixel),
         .x(rel_x),
@@ -121,7 +121,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/16.hex")  
+        .DATA_FILE("G:/2048/2048/new/16.hex")  
     ) u_rom_4 (
         .clk(clk_pixel),
         .x(rel_x),
@@ -132,7 +132,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/32.hex")  
+        .DATA_FILE("G:/2048/2048/new/32.hex")  
     ) u_rom_5 (
         .clk(clk_pixel),
         .x(rel_x),
@@ -143,7 +143,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/64.hex")  
+        .DATA_FILE("G:/2048/2048/new/64.hex")  
     ) u_rom_6 (
         .clk(clk_pixel),
         .x(rel_x),
@@ -154,7 +154,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/128.hex")  
+        .DATA_FILE("G:/2048/2048/new/128.hex")  
     ) u_rom_7 (
         .clk(clk_pixel),
         .x(rel_x),
@@ -165,7 +165,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/256.hex")  
+        .DATA_FILE("G:/2048/2048/new/256.hex")  
     ) u_rom_8 (
         .clk(clk_pixel),
         .x(rel_x),
@@ -176,7 +176,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/512.hex")  
+        .DATA_FILE("G:/2048/2048/new/512.hex")  
     ) u_rom_9 (
         .clk(clk_pixel),
         .x(rel_x),
@@ -187,7 +187,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/1024.hex")  
+        .DATA_FILE("G:/2048/2048/new/1024.hex")  
     ) u_rom_10 (
         .clk(clk_pixel),
         .x(rel_x),
@@ -198,7 +198,7 @@ module display_renderer (
     image_rom #(
         .IMAGE_WIDTH(CELL_SIZE),
         .IMAGE_HEIGHT(CELL_SIZE),
-        .DATA_FILE("new/2048.hex")  
+        .DATA_FILE("G:/2048/2048/new/2048.hex")  
     ) u_rom_11 (
         .clk(clk_pixel),
         .x(rel_x),
