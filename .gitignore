@@ -1,0 +1,14 @@
+*.str
+*.jou
+*.log
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.dvi
+*.ps
+*.synctex.gz
+*.fls
+
+2048/2048.runs/
